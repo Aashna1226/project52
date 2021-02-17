@@ -1,0 +1,45 @@
+a:link{
+    color: bisque;
+}
+a:visited{
+    color: bisque;
+}
+
+h1{
+    background-color: #708090;
+    color: #ff6347 ;
+    text-align: center;
+}
+
+body{
+    background-color: #e0ffff;
+    margin:0px;
+}
+img{
+    border: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 30px;
+    margin:20px;
+}
+
+.grid:hover{
+    transform:scale(1.2);
+}
+#header{
+    padding:50px;
+}
+#head1{
+    background-color: #708090;
+    text-align: center;
+    margin: 50px;
+    padding:30px;
+}
+
+#bodies{
+    display: flex;
+    flex-wrap: wrap;
+    padding:50px;
+    margin:30px;
+}
